@@ -1,0 +1,42 @@
+{
+  "name": "inventory-management-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@babel/register": "^7.17.7",
+    "@babel/runtime": "^7.17.8",
+    "aws-sdk": "^2.1155.0",
+    "babel-loader": "^8.2.4",
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.19.2",
+    "chalk": "^4.1.2",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.0",
+    "express": "^4.17.3",
+    "jimp": "^0.16.1",
+    "joi": "^17.6.0",
+    "jsonwebtoken": "^8.5.1",
+    "multer": "^1.4.5-lts.1",
+    "nodemailer": "^6.7.5",
+    "pg": "^8.7.3",
+    "sequelize": "^6.17.0",
+    "sequelize-cli": "^6.4.1",
+    "uuid": "^8.3.2",
+    "@babel/core": "^7.17.8",
+    "@babel/plugin-proposal-object-rest-spread": "^7.17.3",
+    "@babel/plugin-transform-runtime": "^7.17.0",
+    "@babel/preset-env": "^7.16.11",
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.17.3",
+    "nodemon": "^2.0.16"
+  },
+  "devDependencies": {
+  }
+}
